@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+section.news h2{
+
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+}
+.werp{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 10px 5px;
+}
+
+.main-news{
+    background-color: rgba(48, 63, 134, 0.8);
+}
+.main-news h3{
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.text-news{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.news-date{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color:black;
+}
+.news-date-color{
+    color: white;
+}
+.news-title-people{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding: 7px 6px;
+    background: rgba(48, 63, 134, 0.5);
+}
+.main-news-bg{
+    background: rgba(243, 243, 243, 0.5);
+}
+.card{
+    height: 100%;
+}
+.card img{
+    border-radius: 0;
+    min-height: 200px;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.timeline{
+    background: rgba(48, 63, 134, 0.2);
+}
+.timeline > div{
+    margin-bottom: 6px;
+}
+.timeline h3{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.timeline .news-date{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.timeline .news-title-people{
+    background: rgba(243, 243, 243, 0.5);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 124px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-news{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.list-people{
+    list-style: none;
+}
+.list-people a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+.main-image{
+    background-image: url('../assets/images/bc82f685-381c-4e73-919d-b44fc20ce2bc.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+}
+@media all and (max-width: 992px){
+    .main-image{
+        height: 200px;
+        background-position: top;
+
+    }
+}
